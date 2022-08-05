@@ -1,0 +1,164 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.animationload {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 999999;
+}
+
+.loader {
+    width: 200px;
+    height: 200px;
+    font-size: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url(../images/loader.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+}
+
+#home .large-header {
+    background-image: url("../images/pattern.png"), url('../images/img-5.jpg');
+    background-position: center;
+    background-size: 125%;
+    background-position: 10%;
+}
+
+.socl {
+    margin-top: -90px;
+}
+
+.social li {
+    margin: 8px 15px !important;
+}
+
+li.social-btn {
+    width: 38px;
+    height: 38px;
+    transform: rotate(-45deg);
+    transition: 0.3s ease;
+}
+
+.social-btn {
+    line-height: 36px;
+}
+
+.social-btn a {
+    padding: 12.3px;
+}
+
+.social-btn a i {
+    transform: rotate(45deg);
+}
+
+.social-btn a i:last-of-type {
+    margin-left: -0.5rem;
+    margin-top: -0.3rem
+}
+
+#fb {
+    border: 2px solid #3b5998;
+    color: #3b5998;
+}
+
+#fb a {
+    color: #3b5998;
+}
+
+#fb:hover {
+    background-color: #3b5998;
+}
+
+#fb:hover a {
+    color: #fff;
+}
+
+
+/* twitter */
+
+#tw {
+    border: 2px solid #00aced;
+    color: #00aced;
+}
+
+#tw a {
+    color: #00aced;
+}
+
+#tw:hover {
+    background-color: #00aced;
+}
+
+#tw:hover a {
+    color: #fff;
+}
+
+
+/* instagram */
+
+#ins {
+    border: 2px solid #d65306;
+    color: #d65306;
+}
+
+#ins a {
+    color: #d65306;
+}
+
+#ins:hover {
+    background-color: #d65306;
+}
+
+#ins:hover a {
+    color: #fff;
+}
+
+
+/* github */
+
+#git {
+    border: 2px solid #945007;
+    color: #945007;
+}
+
+#git a {
+    color: #945007;
+}
+
+#git:hover {
+    background-color: #945007;
+}
+
+#git:hover a {
+    color: #fff;
+}
+
+
+/* youtube */
+
+#yt {
+    border: 2px solid #cb2027;
+    color: #cb2027;
+}
+
+#yt a {
+    color: #cb2027;
+}
+
+#yt:hover {
+    background-color: #cb2027;
+}
+
+#yt:hover a {
+    color: #fff;
+}
